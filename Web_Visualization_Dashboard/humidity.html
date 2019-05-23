@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard (Latitude)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"; style="background-color: white;">
+        <a class="btn btn-lg" href="index.html" role="button">Latitude</a>
+        
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparision.html">Comparision</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+        </ul>
+    </nav>
+     
+
+    <!-- Web page content -->
+    <div class="container-fluid box0">
+
+        <!-- Row 1 -->
+        <div class="row">
+            
+            <div class="col-sm-12 col-lg-8 mx-auto text-center">
+                <div class="box1">
+                    <h4 id="font1">Humidity</h4>
+                    <hr>
+                    <img class="img-fluid" style="max-width: 60%; height: auto" src="Resources/assets/images/Fig2.png">
+                    <!--<img class="img-responsive" style="float:left" src="Resources/assets/images/Fig1.png" alt="Fig1" width="200" height="220">-->
+                    <p id="font2">As can be seen from the graph, there is no strong correlation between latitude and humidity. At the time this data was taken it can be seen that most of the cities are between 80% and 100% humidity and are spread across all the latitudes. Interestingly, there are few cities that are showing 0% humidity between 80 to 85 degree in the norther hemisphere.</p>
+                </div>
+            </div>
+        
+    
+            <div class="col-sm-12 col-lg-4">
+                <div class="container-fluid box2">
+                    <h4 id="font1">Visualizations</h4>
+                    <hr>
+                    <div class="row" style="padding-top: 5px; padding-bottom: 25px">
+                        <div class="col-sm-3 col-lg-6">
+                        <a href="maxtemp.html">
+                            <img class="img-fluid" style="max-width: 100%" src="Resources/assets/images/Fig1.png">
+                        </a>
+                        </div>
+                        <div class="col-sm-3 col-lg-6">
+                        <a href="humidity.html">
+                            <img class="img-fluid" style="max-width: 100%" src="Resources/assets/images/Fig2.png">
+                        </a>
+                        </div>  
+                   
+                        <div class="col-sm-3 col-lg-6">
+                            <a href="cloudiness.html">
+                            <img class="img-fluid" style="max-width: 100%" src="Resources/assets/images/Fig3.png">
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-lg-6">
+                            <a href="windspeed.html">
+                            <img class="img-fluid" style="max-width: 100%" src="Resources/assets/images/Fig4.png">
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <div class="row">
+        <div class="col-sm-12 box3">
+            <p>@ Copyright Coding Bootcamp 2017</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
+

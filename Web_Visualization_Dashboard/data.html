@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Visualization Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"; style="background-color: white;">
+        <a class="btn btn-primary btn-lg" href="index.html" role="button">Latitude</a>
+            
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparision.html">Comparision</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+            </li>
+        </ul>
+    </nav>
+
+ 
+    <div class="container-fluid box5">
+    <div class="container-fluid box6">
+    
+        <h3>Data</h3>
+        <hr>
+        <p>The following table includes all of the data used for plotting during this project.</p>
+        <br>
+        <div class="table w-auto" style="max-width: 700px;">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                    <th title="Field #1">City_ID</th>
+                    <th title="Field #2">City</th>
+                    <th title="Field #3">Cloudiness</th>
+                    <th title="Field #4">Country</th>
+                    <th title="Field #5">Date</th>
+                    <th title="Field #6">Humidity</th>
+                    <th title="Field #7">Lat</th>
+                    <th title="Field #8">Lng</th>
+                    <th title="Field #9">Max Temp</th>
+                    <th title="Field #10">Wind Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td align="right">0</td>
+                    <td>jacareacanga</td>
+                    <td align="right">0</td>
+                    <td>BR</td>
+                    <td align="right">1528902000</td>
+                    <td align="right">62</td>
+                    <td align="right">-6.22</td>
+                    <td align="right">-57.76</td>
+                    <td align="right">89.6</td>
+                    <td align="right">6.93</td>
+                    </tr>
+                    <tr>
+                    <td align="right">1</td>
+                    <td>kaitangata</td>
+                    <td align="right">100</td>
+                    <td>NZ</td>
+                    <td align="right">1528905304</td>
+                    <td align="right">94</td>
+                    <td align="right">-46.28</td>
+                    <td align="right">169.85</td>
+                    <td align="right">42.61</td>
+                    <td align="right">5.64</td>
+                    </tr>
+                    <tr>
+                    <td align="right">545</td>
+                    <td>ati</td>
+                    <td align="right">20</td>
+                    <td>TD</td>
+                    <td align="right">1528905633</td>
+                    <td align="right">25</td>
+                    <td align="right">13.21</td>
+                    <td align="right">18.34</td>
+                    <td align="right">104.53</td>
+                    <td align="right">4.97</td>
+                    </tr>
+                    <tr>
+                    <td align="right">546</td>
+                    <td>san luis</td>
+                    <td align="right">0</td>
+                    <td>AR</td>
+                    <td align="right">1528905472</td>
+                    <td align="right">53</td>
+                    <td align="right">-33.3</td>
+                    <td align="right">-66.34</td>
+                    <td align="right">42.43</td>
+                    <td align="right">2.62</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+
+</html>
