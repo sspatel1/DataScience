@@ -2,14 +2,14 @@
 
 ## Background
 
-Create a table dynamically based upon a [dataset provided](StarterCode/static/js/data.js). Allow users to filter the table data for specific values using pure JavaScript, HTML, and CSS, and D3.js on web pages.
+Create a table dynamically based upon a [dataset provided](static/js/data.js). Allow users to filter the table data for specific values using pure JavaScript, HTML, and CSS, and D3.js on web pages.
 
 
 ## Task
 
 ### Multiple Search Categories
 
-* Using a basic HTML web page [index.html](StarterCode/index.html) file provided and using the UFO dataset provided in the form of an array of JavaScript objects, write a code that appends a table to the web page and then adds new rows of data for each UFO sighting.
+* Using a basic HTML web page [index.html](index.html) file provided and using the UFO dataset provided in the form of an array of JavaScript objects, write a code that appends a table to the web page and then adds new rows of data for each UFO sighting.
 
   * Columns for `date/time`, `city`, `state`, `country`, `shape`, and `comment'.
 
@@ -27,7 +27,7 @@ Create a table dynamically based upon a [dataset provided](StarterCode/static/js
 
 ### Dataset
 
-* [UFO Sightings Data](StarterCode/static/js/data.js)
+* [UFO Sightings Data](static/js/data.js)
 
 - - -
 
