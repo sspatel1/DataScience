@@ -1,0 +1,1 @@
+web: gunicorn inter_visual.app:app
