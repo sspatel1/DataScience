@@ -71,6 +71,7 @@ function buildCharts(sample) {
     var trace1 = {
       values: sampleArrayTen.map(row => row.sample_values),
       labels: sampleArrayTen.map(row => row.otu_ids),
+      hovertext: sampleArrayTen.map(row => row.otu_labels),
       type: "pie"
     };
     
